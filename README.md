@@ -28,6 +28,8 @@ python main.py
 ```
 
 ## File Structure for Model Training and Validation
+Models are already trained and validated but you can also perform those tasks if you want.
+
 ### For ADNI Database
 A CSV file containing the following columns:
 - CDR: {0, 0.5, 1, 2, 3}
@@ -36,7 +38,7 @@ A CSV file containing the following columns:
 - Education: {0, 1, 2,..., 20}
 - Diagnosis: {Mild, Sane, Serious}
 
-Example of the CSV file:  
+Example of the CSV file for ADNI database:  
 0,30,79,16,Sane  
 0,30,89,16,Sane  
 0.5,29,81,16,Mild  
@@ -51,7 +53,7 @@ A CSV file containing the following columns:
 - GDS: {1, 2, 3,..., 7}
 - Diagnosis: {Mild, Sane, Serious}
 
-Example of the CSV file:  
+Example of the CSV file for Caldas database:  
 0,30,25,1,Sane  
 0.5,23,14,3,Mild  
 0,27,15,2,Sane  
