@@ -26,3 +26,34 @@ To run the code open a console in /src and use:
 ```python
 python main.py
 ```
+
+## File Structure for Model Training and Validation
+### For ADNI Database
+A CSV file containing the following columns:
+- CDR: {0, 0.5, 1, 2, 3}
+- MMSE: {0, 1, 2,..., 30}
+- Age: {50, 51, 52,..., 100}
+- Education: {0, 1, 2,..., 20}
+- Diagnosis: {Mild, Sane, Serious}
+
+Example of the CSV file:  
+0,30,79.3699,16,Sane  
+0,30,89.737,16,Sane  
+0.5,29,81.7068,16,Mild  
+0.5,26,70.8712,20,Serious  
+0.5,25,69.4247,14,Mild  
+
+### For Caldas Database
+A CSV file containing the following columns:
+- CDR: {0, 0.5, 1, 2, 3}
+- MMSE: {0, 1, 2,..., 30}
+- MoCA: {0, 1, 2,..., 30}
+- GDS: {1, 2, 3,..., 7}
+- Diagnosis: {Mild, Sane, Serious}
+
+Example of the CSV file:  
+0,30,25,1,Sane  
+0.5,23,14,3,Mild  
+0,27,15,2,Sane  
+2,13,4,4,Serious  
+0,30,24,1,Sane  
