@@ -37,11 +37,11 @@ A CSV file containing the following columns:
 - Diagnosis: {Mild, Sane, Serious}
 
 Example of the CSV file:  
-0,30,79.3699,16,Sane  
-0,30,89.737,16,Sane  
-0.5,29,81.7068,16,Mild  
-0.5,26,70.8712,20,Serious  
-0.5,25,69.4247,14,Mild  
+0,30,79,16,Sane  
+0,30,89,16,Sane  
+0.5,29,81,16,Mild  
+0.5,26,70,20,Serious  
+0.5,25,69,14,Mild  
 
 ### For Caldas Database
 A CSV file containing the following columns:
