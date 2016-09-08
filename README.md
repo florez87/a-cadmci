@@ -22,7 +22,7 @@ The required dependencies to run the software are:
 For easy installation on Windows, download and install [WinPython 3.4.4.4Qt5](https://sourceforge.net/projects/winpython/files/WinPython_3.4/3.4.4.4/). 
 
 ## Run the code
-To run the code open a console in /scr and use:
+To run the code open a console in /src and use:
 ```python
 python main.py
 ```
