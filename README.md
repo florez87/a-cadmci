@@ -39,6 +39,7 @@ A CSV file containing the following columns:
 - Diagnosis: {Mild, Sane, Serious}
 
 Example of the CSV file for ADNI database:  
+CDR,MMSE,Age,Education,Diagnosis  
 0,30,79,16,Sane  
 0,30,89,16,Sane  
 0.5,29,81,16,Mild  
@@ -54,6 +55,7 @@ A CSV file containing the following columns:
 - Diagnosis: {Mild, Sane, Serious}
 
 Example of the CSV file for Caldas database:  
+CDR,MMSE,MoCA,GDS,Diagnosis  
 0,30,25,1,Sane  
 0.5,23,14,3,Mild  
 0,27,15,2,Sane  
