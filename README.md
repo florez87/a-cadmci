@@ -1,5 +1,5 @@
 # A-CADMCI
-Computer-Aided Diagnosis Tool for Mild Cognitive Impairment based on Cognitive tests and Decision Trees.
+Computer-Aided Diagnosis Tool for Mild Cognitive Impairment based on Cognitive Tests and Decision Trees.
 
 ## Motivation
 A-CADMCI is built on top of [scikit-learn](https://github.com/scikit-learn/scikit-learn). It was developed to aid in the diagnosis of Mild Cognitive Impairment by analyzing the scores of different cognitive tests:
